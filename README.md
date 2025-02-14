@@ -33,10 +33,6 @@ projetoaws/
 └── .gitignore          # Arquivos ignorados pelo Git
 ```
 
-<!-- ## Scripts Disponíveis
-- `npm start` - Inicia o servidor de desenvolvimento.
-- `npm test` - Executa os testes configurados.
-- `npm run build` - Gera os arquivos para produção. -->
 
 ## Contribuição
 Se deseja contribuir para este projeto, siga os passos abaixo:
