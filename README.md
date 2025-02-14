@@ -25,7 +25,7 @@ npm install
 
 ## Estrutura do Projeto
 ```
-projetoaws/
+StockMaster_Frontend/
 ├── src/                # Código-fonte principal
 ├── public/             # Arquivos estáticos
 ├── package.json        # Configuração do projeto
@@ -41,9 +41,6 @@ Se deseja contribuir para este projeto, siga os passos abaixo:
 3. Faça o commit das suas alterações (`git commit -m 'Adiciona nova feature'`).
 4. Envie para o repositório remoto (`git push origin minha-feature`).
 5. Abra um **Pull Request**.
-
-## Licença
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
