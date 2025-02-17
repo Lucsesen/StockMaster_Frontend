@@ -106,8 +106,8 @@ main {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 23vw;
-    max-height: 30vh;
+    width: 26vw;
+    /* max-height: 30vh; */
 }
 
 .addForm form {
