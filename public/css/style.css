@@ -107,7 +107,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 26vw;
-    /* max-height: 30vh; */
+    max-height: 30vh;
 }
 
 .addForm form {
@@ -218,20 +218,54 @@ tbody tr td:first-child {
 th {
     padding: 1rem 0;
 }
+
 tr td {
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.116);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.116);
 }
 
 tr:last-child td {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 tr {
     transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  tr:hover {
+}
+
+tr:hover {
     transform: scale(1.03);
     background-color: rgba(45, 170, 255, 0.1);
-  }
-  
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    /* Posição próxima à parte inferior */
+    left: -350px;
+    /* Inicia fora da tela (à esquerda) */
+    /* Cor vermelha para indicar exclusão */
+    color: #fff;
+    padding: 16px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    opacity: 0;
+    transition: left 0.5s ease-out, opacity 0.5s ease-out;
+    z-index: 9999;
+}
+
+/* Classe que exibe a notificação */
+.notification.show {
+    left: 20px;
+    /* Move para a área visível */
+    opacity: 1;
+
+}
+
+@media (max-width:1440px) {
+    .addForm {
+        max-height: 45vh;
+    }
+}
+
+
